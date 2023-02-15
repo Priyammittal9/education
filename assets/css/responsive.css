@@ -1,0 +1,285 @@
+
+@media screen and (min-width: 992px) and (max-width:1200px) {
+  .container{
+  max-width: 95%;
+  }
+  #home .home-text h1,#event .right_content h1{
+font-size: 62px;
+}
+  #home .home-text p{
+    width: 100%;
+  }
+  #home .button .btn{
+    padding: 19px 39px;
+  }
+  #aboutus .left_content .bg-banner{
+max-width: 131%;
+}
+  #aboutus .left_content .bg-img{
+max-width: 130%;
+}
+  #aboutus .left_content{
+margin-top: 50px;
+}
+  #aboutus .right_content h1{
+font-size: 53px;
+margin-block: 8px;
+}
+  #aboutus .right_content ul li{
+margin-block: 8px;
+  }
+  #courses .card .top_box{
+height: 200px;
+}
+#courses .card .bottom_box h1{
+font-size: 25px;
+}
+#event .right_content h1{
+font-size: 48px;
+}
+#event .left_content{
+  margin-top: 85px;
+}
+#feature .left_content .box_section ul li .box p{
+width: 95%;
+}
+}
+
+@media (max-width:991px) {
+  nav .list{
+    display: none
+  }
+
+  nav .button .btn{
+    display: none
+  }
+  .nav-toggle-btn{
+  display: inline-block;
+  }
+  #home .home-text{
+    text-align: center;
+  }
+  #home .home-text h1, #explore h1, #courses h1, #event .right_content h1, #coach h1, #feature .left_content h1, #testimonials .left_content h1{
+font-size: 60px;
+  }
+  #home .home-text p{
+    width: 64%;
+    display: inline-block;
+    font-size: 15px;
+  }
+  #home::after{
+    bottom: -100px;
+    top: auto;
+  }
+  #explore .product .contant_explore h1{
+    width: 208px;
+  }
+  #aboutus .left_content .bg-banner{
+left: 0;
+}
+  #aboutus .left_content .bg-img{
+margin-left: -30px;
+  }
+  #aboutus .left_content{
+    margin: 0;
+    margin-bottom: 40px;
+    overflow: hidden;
+  }
+  #aboutus .right_content h1{
+font-size: 50px;
+  }
+  #courses .card .bottom_box .price_section .img_box img{
+margin-left: 16px;
+  }
+
+  #courses .button_bottom{
+    display: block;
+    text-align: center;
+    padding-block: 23px;
+  }
+  #courses .top_button{
+    display: none;
+  }
+  #event .right_content h1{
+font-size: 50px;
+}
+#event .left_content{
+  padding-bottom:
+  85px;
+}
+#feature .bg_img{
+position: relative;
+width: 100%;
+height: 500px;
+}
+#feature .left_content .box_section ul li .box p{
+  width: 100%;
+}
+#contect_section .box{
+  text-align: center;
+  padding: 0;
+  padding-inline: 30px;
+  padding-top: 10px;
+}
+#contect_section .box .button{
+  text-align: center;
+  padding-block: 30px;
+}
+}
+
+@media (max-width:768px) {
+  #home .home-text h1, #explore h1, #event .right_content h1, #coach h1, #feature .left_content h1, #testimonials .left_content h1, #blog h1{
+font-size: 50px;
+}
+#explore .product .contant_explore h1{
+  width: auto;
+}
+#aboutus .left_content .bg-banner{
+left: -75px;
+}
+#aboutus .left_content .bg-img{
+margin-left: -100px;
+}
+#aboutus .right_content h1,#courses h1{
+  font-size: 40px;
+}
+#event .right_content .box_section ul li .box{
+  text-align: center;
+}
+#event .right_content .box_section ul li .box .shedule h1{
+  text-align: center;
+}
+#event .right_content .box_section ul li .box .time_section{
+border-bottom: 1px solid #939394;
+border-right: none;
+padding-bottom: 20px;
+}
+#event .right_content .box_section ul li .box .time_section p{
+font-size: 20px;
+}
+#event .right_content .box_section ul li .box .shedule{
+padding-top: 25px;
+}
+#event .right_content .box_section ul li .box .shedule p{
+font-size: 18px;
+}
+#blog .card .top_box{
+  height: 400px;
+}
+#contect_section .box h1{
+font-size: 30px;
+padding-inline: 10px;
+}
+#footer ul,#footer .left_content,#footer .right_content{
+padding-block: 20px;
+
+padding-inline: 20px;
+
+}
+}
+
+@media (max-width:576px) {
+#home{
+padding-top: 43px;
+}
+#aboutus .left_content .bg-img{
+  width: 100%;
+  margin-left: -15px;
+}
+#aboutus .left_content .bg-banner{
+  width: 100%;
+  left: 0;
+}
+#aboutus .right_content{
+  padding-inline: 20px;
+}
+#aboutus .right_content ul li ion-icon{
+}
+#aboutus .right_content ul li p{width: 90%;}
+#aboutus .right_content p{
+  font-size: 15px;
+}
+#aboutus .right_content h1{
+  font-size: 35px;
+}
+#courses h1{
+font-size: 38px;
+}
+#event{padding-inline: 23px;}
+#event .left_content .button{
+top: 30%;
+}
+#testimonials{
+padding-inline: 20px;
+
+}
+nav{
+  padding-inline: 20px;
+
+}
+
+#coach .profile_card{
+
+margin-inline: 20px;
+
+}
+}
+
+@media (max-width:385px) {
+  #home .home-text h1, #explore h1, #coach h1, #feature .left_content h1, #testimonials .left_content h1,#blog h1{
+
+font-size: 38px;
+
+}
+#explore .product .contant_explore h1{
+  width: 180px;
+  font-size: 20px;
+}
+  #event .right_content .box_section ul li .box .shedule p{
+    border: none;
+  }
+  #testimonials .right_content .large_box .img_content .img img{
+width: 45px;
+height: 45px;
+}
+  #testimonials .right_content .large_box .img_content .img{
+width: 65px;
+  }
+}
+@media (max-width:410px) {
+  #aboutus .right_content ul li p{
+  width: 85%;
+  }
+
+}
+@media (max-width:480px) {
+  #aboutus .left_content .icon-1{
+top: 120px;
+}
+  #aboutus .left_content .icon-3{
+top: 215px;
+}
+
+}
+@media (max-width:500px){
+#feature .left_content .box_section ul li .box .img{
+}
+#feature .left_content .box_section ul li .box{
+  text-align: center;
+}
+
+
+#contect_section .box h1{
+
+font-size: 25px;
+}
+}
+
+@media (max-width:350px){
+  #contect_section .box .button .btn{
+    width: 100%;
+  }
+  #contect_section .box .button .btn span{
+  inset: 10px 23px 10px 66%;
+  }
+}
