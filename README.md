@@ -1,1 +1,1 @@
-# [education](https://shinChan54.github.io/education/)
+# [education](https://Ghost1pm.github.io/education/)
