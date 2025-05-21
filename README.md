@@ -1,2 +1,2 @@
  #education
- # Live website :-  [education](https://Ghost1pm.github.io/education/)
+ # Live website :-  [education](https://priyammittal9.github.io/education/)
